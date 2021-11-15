@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "https: //fonts.googleapis.com/css2? family = Lobster & family = Montserrat: ital @ 1 & display = swap "rel =" stylesheet ">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="/icono/comer.svg" type="image/x-icon">
+    <title>Eltanito-Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="div__padre">
+            <img class="img-logo" src="/imagenes/El Tanito.png" alt="LOGO">
+            <div class="div__nav">  
+                <div class="div__hijo div-inicio"><a href="index.html">Inicio</a></div>
+                <div class="div__hijo div-menu"><a href="menu.html">Menu</a></div>   
+                <div class="div__hijo div-pre_frecu"><a href="FAQs.html">Preguntas Frecuentes</a></div>    
+                <div class="div__hijo div-trabajaconnosotros"><a href="TconNstros.html">Trabaja Con Nosotros</a></div>   
+                <div class="div__hijo div-contacto"><a href="contacto.html">Contacto</a></div>     
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contacto</legend>
+                <div>
+                    <div>
+                    
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" required placeholder="Escriba su Nombre aqui">
+    
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" name="Apellido" id="Apellido" required placeholder="Escriba su Apellido aqui">
+    
+                    </div>
+                
+                    <div>
+
+                        <label for="E-mail">Email</label>
+                        <input type="email" name="E-mail" id="E-mail" required placeholder="Su email aqui">
+                    
+                        <label for="Telefono">Telefono</label>
+                        <input type="number" name="number" id="number" required placeholder="Su telefono aqui">
+                    
+                    </div>
+                    <div>
+                        <label for="contacto">¿Nos comunicamos por?</label>
+                            <select name="contacto" id="contacto">
+                                <option value="Telefono">Telefono</option>
+                                <option value="E-mail">Email</option>
+                            </select>
+
+                    </div> 
+    
+                    <div>Acepta los terminos</div>
+                        <input type="checkbox" name="aceptar" id="aceptar">
+                    </div>
+                    <div>
+                        <label for="Mesaje">Mensaje</label>
+                    </div>
+                    <div>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Su mensaje aqui"></textarea>
+                    </div>
+                    <span>
+                        <input type="submit" name="Enviar formulario" id="enviar formulario" value="Enviar Formulario">
+                        <input type="reset" name="borrar formulario" id="borrar formulario" value="Borrar formulario">
+                    </span>
+            </fieldset>
+        </form>
+    </main>
+   
+    <footer>
+        <h4>Redes Sociales</h4>
+        <i><img class="imganes-iconos" src="/icono/instagram.svg" alt=""></i>
+        <i><img class="imganes-iconos" src="/icono/messenger.svg" alt=""></i>
+        <i><img class="imganes-iconos" src="/icono/telegram.svg" alt=""></i>
+        <i><img class="imganes-iconos" src="/icono/whatsapp.svg" alt=""></i>
+        <div>
+        <iframe class="direccion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.        3268184078674!2d-68.59992658530305!3d-31.515182608190077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814141b580061d%3A0x7ec579b354c22418!2sRastreador%20Calivar%20Nte.%201487-1565%2C%20Rivadavia%2C%20San%20Juan!5e0!3m2!1ses!2sar!4v1633303162607!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+
+</body>
+</html>
